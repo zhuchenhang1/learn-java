@@ -1,4 +1,4 @@
-class Solution {
+class Levorotation {
     public String reverseLeftWords(String s, int n) {
         char[] arr = s.toCharArray();
         int count = n % arr.length;
@@ -7,7 +7,7 @@ class Solution {
     }
 
     public static void main(String[] args) {
-Solution s=new Solution();
+Levorotation s=new Levorotation();
 s.reverseLeftWords("abcdef",4);
     }
 }
